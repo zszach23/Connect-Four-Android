@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ConnectFour</string>
+
+    <!-- Main Activity -->
+    <string name="connect_four_button_text">Connect Four</string>
+    <string name="options_button_text">Options</string>
+
+    <!-- Game Options Activity -->
+    <string name="options_header">Options</string>
+    <string name="select_difficulty_text">Select Difficulty</string>
+    <string name="easy_text">Easy</string>
+    <string name="medium_text">Medium</string>
+    <string name="hard_text">Hard</string>
+
+</resources>
