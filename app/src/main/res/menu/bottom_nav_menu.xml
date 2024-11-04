@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_menu"
+    android:background="@color/ballWhite">
+
+    <!--Connect Four Board Fragment-->
+    <item
+        android:id="@+id/BoardFragment"
+        android:title="@string/connect_four_button_text"
+        android:icon="@drawable/connect_four_icon"
+        android:visible="true"/>
+
+    <!--Options Fragment-->
+    <item
+        android:id="@+id/GameOptionsFragment"
+        android:title="@string/options_button_text"
+        android:icon="@drawable/options_icon"
+        android:visible="true"/>
+</menu>

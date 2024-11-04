@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".GameOptionsFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@color/background"
+    android:paddingTop="30dp">
+
+    <!-- Options Header TextView -->
+    <TextView
+        android:id="@+id/OptionsHeaderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/options_header"
+        style="@style/h1"/>
+
+    <!-- Spacer View to Separate the Header and Difficulty Section -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="100dp" />
+
+    <!-- LinearLayout for Difficulty Selection -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center" >
+
+        <!-- Select Difficulty TextView -->
+        <TextView
+            android:id="@+id/SelectDifficultyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/select_difficulty_text"
+            style="@style/h2" />
+
+        <!-- Difficulty Selection Radio Group -->
+        <RadioGroup
+            android:id="@+id/DifficultyRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center" >
+
+            <!-- Easy Radio Button -->
+            <RadioButton
+                android:id="@+id/EasyRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start|center"
+                android:text="@string/easy_text"
+                style="@style/h3"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp" />
+
+            <!-- Medium Radio Button -->
+            <RadioButton
+                android:id="@+id/MediumRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start|center"
+                android:text="@string/medium_text"
+                style="@style/h3"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp" />
+
+            <!-- Hard Radio Button -->
+            <RadioButton
+                android:id="@+id/HardRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start|center"
+                android:text="@string/hard_text"
+                style="@style/h3"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+</LinearLayout>
