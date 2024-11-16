@@ -49,14 +49,14 @@
         android:layout_marginBottom="70dp"
         android:rowCount="7"
         android:columnCount="6"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:layout_gravity="center"
         android:gravity="center"
         android:paddingTop="0dp"
         android:paddingBottom="0dp"
         android:background="@color/blue">
 
-        <!-- Column 0 (Leftmost Column) -->
+        <!-- Row 0 (Top Row) -->
         <Button
             android:id="@+id/button00"
             style="@style/circle"/>
@@ -85,7 +85,7 @@
             android:id="@+id/button60"
             style="@style/circle" />
 
-        <!-- Column 1 -->
+        <!-- Row 1 -->
         <Button
             android:id="@+id/button01"
             style="@style/circle" />
@@ -114,7 +114,7 @@
             android:id="@+id/button61"
             style="@style/circle" />
 
-        <!-- Column 2 -->
+        <!-- Row 2 -->
         <Button
             android:id="@+id/button02"
             style="@style/circle" />
@@ -143,7 +143,7 @@
             android:id="@+id/button62"
             style="@style/circle" />
 
-        <!-- Column 3 -->
+        <!-- Row 3 -->
         <Button
             android:id="@+id/button03"
             style="@style/circle" />
@@ -172,7 +172,7 @@
             android:id="@+id/button63"
             style="@style/circle" />
 
-        <!-- Column 4 -->
+        <!-- Row 4 -->
         <Button
             android:id="@+id/button04"
             style="@style/circle" />
@@ -201,7 +201,7 @@
             android:id="@+id/button64"
             style="@style/circle" />
 
-        <!-- Column 5 -->
+        <!-- Row 5 -->
         <Button
             android:id="@+id/button05"
             style="@style/circle" />
